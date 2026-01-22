@@ -1,0 +1,32 @@
+.main-sec {
+    background-image: url(../assets/images/main-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+
+.main-sec::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.416);
+    z-index: -1;
+}
+
+.h-section{
+    position: relative;
+    z-index: 999;
+}
+
+.intro-text{
+    font-size: 55px;
+}
+
+.intro-bun{
+    line-height: 9px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}

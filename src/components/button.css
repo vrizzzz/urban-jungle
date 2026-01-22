@@ -1,0 +1,13 @@
+.common{
+    padding: 11px 36px;
+    border-radius: 50px;
+    color: white;
+}
+
+.shop-btn{
+    background-color: #88AD35;
+}
+
+.shop-btn:hover{
+    background-color: #6b7c41;
+}

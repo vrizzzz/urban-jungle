@@ -1,0 +1,111 @@
+.service-icon{
+    background-color: #ECF4D3;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.m-80{
+    margin-top: 80px;
+}
+
+.service-icon{
+    font-size: 35px;
+}
+
+.s-head{
+    font-size: 21px;
+}
+
+.s-info{
+    color: #454545;
+}
+
+.prod-head{
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.pname{
+    font-size: 20px;
+}
+
+.ptype{
+    font-size: 13.6px;
+    color: #969696;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.banner{
+    background: url(../assets/images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 450px;
+}
+
+.banner::after ,.review-banner::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.552);
+    z-index: -1;
+}
+
+.banner-head{
+    font-size: 42px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.banner-text{
+    font-size: 16px;
+    color: white;
+}
+
+.stats ,.review ,.footer{
+    background-color: #ECF4D3;
+}
+
+.stat-head ,.review-head{
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.stat-info ,.review-info{
+    color: #454545;
+}
+
+.c-box{
+    background-color: white;
+    padding: 50px 40px;
+    border-radius: 15px;
+}
+
+.comment{
+    font-size: 20px;
+}
+
+.md-80{
+    margin-bottom: 80px;
+}
+
+.p-30{
+    padding: 100px 0 100px 0 !important; 
+}
+
+.review-banner{
+    background: url(../assets/images/review-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 370px;
+}
