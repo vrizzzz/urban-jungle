@@ -1,4 +1,4 @@
-import Intro from "./components/intro"
+import Intro from "./components/Intro"
 import Services from "./components/Services"
 import Products from "./components/Products"
 import Category from "./components/Category"
