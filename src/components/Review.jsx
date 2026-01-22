@@ -1,4 +1,4 @@
-import "./Services.css"
+import "./services.css"
 import profile1 from "../assets/images/profile-1.jpg"
 import profile2 from "../assets/images/profile-2.jpg"
 import profile3 from "../assets/images/profile-3.jpg"
