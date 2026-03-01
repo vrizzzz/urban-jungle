@@ -5,7 +5,9 @@ import Category from "./components/Category"
 import Stats from "./components/Stats"
 import Popular from "./components/Popular"
 import Review from "./components/Review"
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import PlantSlider from "./components/Plantslider";
+
 
 
 const App = () => {
@@ -13,6 +15,7 @@ const App = () => {
     <>
       <main>
         <Intro></Intro>
+        <PlantSlider />
         <Services></Services>
         <Products></Products>
         <Category />
