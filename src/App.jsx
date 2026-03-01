@@ -6,7 +6,7 @@ import Stats from "./components/Stats"
 import Popular from "./components/Popular"
 import Review from "./components/Review"
 import Footer from "./components/Footer";
-import PlantSlider from "./components/Plantslider";
+import PlantSlider from "./components/temp"
 
 
 
