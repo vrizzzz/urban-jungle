@@ -41,7 +41,7 @@ const plants = [
   },
 ];
 
-const PlantSlider = () => {
+const Plantslider = () => {
   return (
     <section className="py-1" style={{ background: "#ECF4D3" }}>
       <div className="container m-80">
@@ -89,4 +89,4 @@ const PlantSlider = () => {
   );
 };
 
-export default PlantSlider;
+export default Plantslider;
