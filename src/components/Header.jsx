@@ -1,4 +1,5 @@
 import Socialmedia from "./Socialmedia";
+import "./services.css"
 
 const Header = () => {
     const icons = [
@@ -24,16 +25,16 @@ const Header = () => {
                     <div className="col-12 col-lg-4 mb-3 mb-lg-0 d-none d-lg-block">
                         <ul className="nav justify-content-center gap-3">
                             <li className="nav-item">
-                                <a className="nav-link text-light" href="#">Home</a>
+                                <a className="nav-link text-light namee" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-light" href="#">Shop</a>
+                                <a className="nav-link text-light namee" href="#">Shop</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-light" href="#">About</a>
+                                <a className="nav-link text-light namee" href="#">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-light" href="#">Contact</a>
+                                <a className="nav-link text-light namee" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
